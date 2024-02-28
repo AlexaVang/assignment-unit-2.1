@@ -76,7 +76,7 @@ console.log(diceRoll);
 let petStatus;
 if (pets < allowedPets) {
   petStatus = "I can have more pets";
-} else if ((pets = allowedPets)) {
+} else if (pets === allowedPets) {
   petStatus = "I have enough pets";
 } else if (pets > allowedPets) {
   petStatus = "Oh no, I have too many pets!";
