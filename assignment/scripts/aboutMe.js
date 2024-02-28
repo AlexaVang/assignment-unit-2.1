@@ -117,6 +117,7 @@ switch (luckyNumber) {
     break;
   case 3:
     luckyResult = "Third is the one with the polka dot dress";
+    break;
   default:
     luckyResult = "Luck is what happens when preparation meets opportunity";
 }
